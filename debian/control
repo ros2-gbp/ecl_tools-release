@@ -1,0 +1,12 @@
+Source: ros-iron-ecl-tools
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_tools
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-build, ros-iron-ecl-license, ros-iron-ros-workspace
+Description: Tools and utilities for ecl development.
