@@ -1,0 +1,12 @@
+Source: ros-iron-ecl-license
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_license
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-license
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-workspace
+Description: Maintains the ecl licenses and also provides an install target for deploying licenses with the ecl libraries.
