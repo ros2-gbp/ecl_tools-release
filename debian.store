@@ -1,1 +1,1 @@
-{"base": "0a849b0", "parent": "debian/rolling/ecl_build", "previous": "a205633", "trim": "", "trimbase": ""}
+{"base": "4d22452a9cd7", "parent": "debian/kilted/ecl_build", "previous": "e4d2eb893f7c", "trim": "", "trimbase": ""}
