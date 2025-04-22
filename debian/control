@@ -1,0 +1,12 @@
+Source: ros-kilted-ecl-tools
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_tools
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-build, ros-kilted-ecl-license, ros-kilted-ros-workspace
+Description: Tools and utilities for ecl development.
